@@ -1,0 +1,42 @@
+These are results in simple format
+
+Travel dataset
+IF Age#Very young AND Age#Middle AND Age#Young THEN Decision = Buy
+IF Type of Call#Intern AND Lang Fluency#Not fluent AND Lang Fluency#Foreign THEN Decision = Buy
+IF Type of Call#Local AND Type of Call#Long AND Lang Fluency#Not fluent AND Lang Fluency#Accent THEN Decision = Not buy
+IF Type of Call#Long AND Lang Fluency#Fluent AND Lang Fluency#Accent THEN Decision = Not buy
+ 
+ 
+
+Weather  dataset
+IF outlook#overcast AND outlook#rainy AND humidity#normal THEN play = no
+IF outlook#overcast AND outlook#sunny AND windy#FALSE THEN play = no
+IF outlook#sunny AND outlook#rainy THEN play = yes
+IF outlook#sunny AND windy#TRUE THEN play = yes
+IF outlook#rainy AND humidity#high THEN play = yes
+
+
+Iris dataset
+IF petallength#(2.45-4.75] and petallength#(4.75-6.9] THEN class=Iris-setosa  
+IF sepallength#[4.3-5.55] and petallength#(4.75-6.9] and petallength#[1-2.45] THEN class=Iris-versicolor  
+IF sepalwidth#[2-2.95] and petallength#(4.75-6.9] and petallength#[1-2.45] THEN class=Iris-versicolor  
+IF sepalwidth#(3.05-4.4] and petalwidth#(0.8-1.75] and petalwidth#[0.1-0.8] THEN class=Iris-virginica  
+IF sepallength#(5.55-6.25] and sepallength#[4.3-5.55] and petalwidth#(0.8-1.75] and petalwidth#[0.1-0.8] THEN class=Iris-virginica 
+
+
+Heart Desease dataset
+IF Age#[29-54.5] and Sex#Female and ChestPainType#1 and RestingElectrocardiographic#0 and RestingElectrocardiographic#1 and Ca#0 THEN PresenceHeartDisease
+IF Age#[29-54.5] and Sex#Female and ChestPainType#1 and ChestPainType#2 and RestingElectrocardiographic#0 and RestingElectrocardiographic#1 and MaximumHeartRateAchieved#(147.5-202] and SlopeofPeakExerciseSTSegment#1 THEN PresenceHeartDisease
+IF Sex#Female and ChestPainType#1 and ChestPainType#2 and ChestPainType#3 and RestingElectrocardiographic#0 and RestingElectrocardiographic#1 and MaximumHeartRateAchieved#(147.5-202] and SlopeofPeakExerciseSTSegment#1 THEN PresenceHeartDisease
+IF Sex#Female and ChestPainType#1 and ChestPainType#2 and MaximumHeartRateAchieved#(147.5-202] and STDepressionInducedByExercise#[0-1.7] and SlopeofPeakExerciseSTSegment#1 and Ca#3 THEN PresenceHeartDisease
+IF ChestPainType#1 and ChestPainType#2 and ChestPainType#3 and RestingElectrocardiographic#0 and RestingElectrocardiographic#1 and SlopeofPeakExerciseSTSegment#1 and Thal#Normal THEN PresenceHeartDisease
+IF ChestPainType#1 and ChestPainType#2 and ChestPainType#3 and MaximumHeartRateAchieved#(147.5-202] and ExerciseInducedAngina#No and STDepressionInducedByExercise#[0-1.7] THEN PresenceHeartDisease
+IF ChestPainType#1 and ChestPainType#2 and ChestPainType#3 and MaximumHeartRateAchieved#(147.5-202] and ExerciseInducedAngina#No and STDepressionInducedByExercise#[0-1.7] THEN PresenceHeartDisease
+IF ChestPainType#1 and ChestPainType#2 and ChestPainType#3 and MaximumHeartRateAchieved#(147.5-202] and STDepressionInducedByExercise#[0-1.7] and SlopeofPeakExerciseSTSegment#1 and Ca#2 THEN PresenceHeartDisease
+IF ChestPainType#1 and ChestPainType#2 and ChestPainType#3 and STDepressionInducedByExercise#[0-1.7] and SlopeofPeakExerciseSTSegment#1 and Thal#Normal THEN PresenceHeartDisease
+IF SerumCholestoral#(272-564] and RestingElectrocardiographic#0 and STDepressionInducedByExercise#(1.7-6.2] and Ca#1 and Ca#2 and Ca#3 and Thal#Reversable THEN AbsenceHeartDisease
+IF Sex#Male and ChestPainType#2 and ChestPainType#4 and Thal#Reversable THEN AbsenceHeartDisease
+IF Sex#Male and SerumCholestoral#(272-564] and ExerciseInducedAngina#Yes and SlopeofPeakExerciseSTSegment#3 and Thal#Reversable THEN AbsenceHeartDisease
+IF Sex#Male and ChestPainType#4 and MaximumHeartRateAchieved#[71-147.5] and Ca#2 and Ca#3 THEN AbsenceHeartDisease
+IF ChestPainType#3 and RestingBloodPressure#(143-200] and SerumCholestoral#(272-564] and MaximumHeartRateAchieved#[71-147.5] and Ca#1 and Ca#2 and Ca#3 and Thal#Reversable THEN AbsenceHeartDisease
+

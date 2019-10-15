@@ -1,0 +1,35 @@
+1- Using any programming language to write an application/program for classify datasets based on Clip4. 
+
+2- We supply 4 datasets. Travel and Weather are small datasets which will help you checking your program (running step by step, debugging,..)
+   And 2 datasets : Iris and Heart Desease for running,testing result of your program 
+   But when grading, we only use 3 datasets Weather, Travel and Iris.
+   All datasets has been discretized, you can convert these datasets to any format which you need, but in this case you have to send
+   us your datasets (for running,testing when grading)
+
+3- Your's outputs should be clear such as 
+              IF  Type of Call = Local  && Lang Fluency = Fluent   THEN  Buy
+              IF  petallength = (2.45-4.75]  && petalwidth = (0.8-1.75]   THEN  Class=Iris-versicolor
+   
+   Not should be like this
+              IF  Type of Call = 1  && Lang Fluency = 0   THEN  1
+              IF  petallength = 1  && petalwidth = 2   THEN  Class=2
+   
+   Total points of this HW are 10 include : 
+	Exact result : 8 pts , user-interface : 2 pts
+    
+   You should be send your HW to me (Dat) 2-3 days before due date and I can give you some opinions for getting max points
+   
+4- You have to package your homework (in a compress file) include : source code, executable program
+   (don't need dataset) and a brief description about how to run your program (syntax, notice when 
+    running,version of programming language software...) in text format
+    Be careful, VCU mail will check and deny any execute file (.exe,.com) so you have to change 
+    extension part of your execute program before compressing
+    
+5- Send your package to me : nguyendt22@vcu.edu
+
+6- When I received your package, i will reply to you for surely it's arrived
+
+7- Due date of HW2 will be Wed Nov-09-2011 at midnight !!! (before 0 am Nov-10-2011)
+
+  
+ 

@@ -1,0 +1,44 @@
+1- Using any programming language (Matlab, C, C#, Java,...)to write an application/program for discretizing 
+   any dataset. You have to  use CAIM algorithm in your program for discretizing.
+   
+2- We will use 2 data sets : Iris and Heart Desease for running, testing result of your program 
+   and also you do too for programming. You have to run CAIM algorithm with each feature (atribute)
+   in each dataset and show/display result for each.
+   
+   In Iris dataset, you have to discretize all feature (except class !) and in Heart dataset you only
+   discretize numeric features (7 features).
+   
+   Decribe content in data set
+   Line 1 : name of data set.
+   Line 2 : list of attribute.
+   Line 3 : list of attribute's data type. 
+   From line 4 to end : each line is an instance with list of attribute's value separated by comma.
+   
+   You can change these data set files to any format to available with your program. If you do that, pls send
+   your own formatted data set files with your package (see 3). But try to keep original format is better because
+   of we/you can run program with others in same format.
+   
+3- You have to package your homework (in a compress file) include : source code, executable program
+   (don't need dataset) and a brief description about how to run your program (syntax, notice when 
+    running,version of programming language software...) in text format.
+    Be careful, VCU mail will check and deny any execute file (.exe,.com) so you have to change 
+    extension part of your execute program before compressing.
+    
+4- Send your package to me : nguyendt22@vcu.edu
+
+5- When I receive your package, i will reply to you for surely it arrived.
+
+6- Due date of HW1 will be Mon Oct 3rd, 2011  at midnight !!! (before 0 am Tue Oct 4th, 2011)
+
+7- Grade policy
+	 Total points of this HW are 10 include : 
+              exact result   : 8 pts  ( 4pts for each data set)
+              user-interface : 2 pt  (easy to use)
+
+8- Remember that even you can not finish HW perfectly, you should be send your package to me on time
+   and can get some points (it's better than no point)
+
+9- Don't hesitate contact me during you do HW. If you have questions, troubles. I will help you with 
+   all my efforts
+  
+ 

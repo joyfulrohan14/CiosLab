@@ -1,0 +1,18 @@
+1- Using any programming language to write an application/program for discretizing any dataset. 
+   You have to  use CAIM algorithm in your program for discretizing.
+2- We will use 2 datasets : Iris and Heart Desease for running, testing result of your program 
+   and also you do too for programming. You have to run CAIM algorithm with each feature (atribute)
+   in each dataset and show/display result
+   In Iris dataset, you have to discretize all feature (except class !) and in Heart dataset you only
+   discretize numeric features (7 features)
+3- You have to package your homework (in a compress file) include : source code, executable program
+   (don't need dataset) and a brief description about how to run your program (syntax, notice when 
+    running,version of programming language software...) in text format
+    Be careful, VCU mail will check and deny any execute file (.exe,.com) so you have to change 
+    extension part of your execute program before compressing
+4- Send your package to me : nguyendt22@vcu.edu
+5- When I received your package, i will reply to you for surely it's arrived
+6- Due date of HW1 will be Thu 7-Oct-10 at midnight !!! (before 0 am 8-Otc-10)
+
+  
+ 
